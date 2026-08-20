@@ -1,13 +1,3 @@
-# DataCenterSafetyAwarenessCertificate
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Safety Standard: OSHA / EHS Compliant](https://img.shields.io/badge/Standard-EHS%20Compliant-green.svg)](#standards-and-compliance)
-[![Maintenance Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](#)
-
-A structured training reference and assessment curriculum designed for data center technicians, engineers, and facility contractors to prevent same-level slips, trips, falls, and raised-floor structural incidents.
-
----
-
 > ### 🧠 Pre-Check: Diagnostic Assessment
 > 
 > **Question:** When performing maintenance on a raised-floor system in an active data hall, which of the following practices is **permitted** without installing temporary structural supports?
