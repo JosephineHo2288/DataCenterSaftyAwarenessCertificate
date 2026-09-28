@@ -1,15 +1,3 @@
-Here is a clean, structured Markdown file formatted specifically for GitHub (complete with a title, metadata, pre-assessment questions with expandable answer keys, and cleanly organized reference content).
-
-```markdown
-# Data Center Heat Hazards & Illness Prevention
-
-> **Source:** [Certus Safety Training Course](https://fusion.certus.com/course-players/courses/103582/player/1004697979/block/484450)  
-> **Topic:** Interior and Exterior Heat Hazard Identification, Risk Factors, and Controls
-
-```
-
----
-
 ## 📝 Pre-Assessment Questions
 
 Test your baseline knowledge before reviewing the material. Click on **Answer & Explanation** to check your answers.
