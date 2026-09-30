@@ -1,239 +1,249 @@
+# Data Center Science & Safety: Roaring Servers and Ear Protection 🇸🇬
+
+> **Who is this for?** Secondary 1 to Secondary 4 students in Singapore studying General Science, O-Level Physics (Sound & Waves), or Biology (Sensory Organs & Nervous System).
+>
+> **What is this about?** Why mega data centers in Singapore can be as loud as an MRT train screeching past, how sound waves permanently destroy tiny hair cells in your inner ear, and how engineers protect their hearing.
+
 ## 📋 Table of Contents
 
-1. [Pre-Test Assessment](#-pre-test-assessment)
+1. [Quick 3-Question Quiz (Test your instincts first!)](#1-quick-3-question-quiz)
+2. [Why Are Data Centers So Noisy?](#2-why-are-data-centers-so-noisy)
+3. [The Biology of Hearing: How Loud Sounds Break Your Ears](#3-the-biology-of-hearing-how-loud-sounds-break-your-ears)
+   - [How We Hear Sound Waves](#how-we-hear-sound-waves)
+   - [Permanent Damage: Why Hair Cells Never Grow Back](#permanent-damage-why-hair-cells-never-grow-back)
+4. [The Physics of Sound: Understanding the Decibel (dB) Scale](#4-the-physics-of-sound-understanding-the-decibel-db-scale)
+   - [The Logarithmic Trap](#the-logarithmic-trap)
+   - [The Danger Threshold: 80–85 dB](#the-danger-threshold-8085-db)
+5. [The Loudest Hotspots in a Data Center](#5-the-loudest-hotspots-in-a-data-center)
+6. [Hierarchy of Noise Defense: How Engineers Solve It](#6-hierarchy-of-noise-defense-how-engineers-solve-it)
+7. [Hearing PPE: Proper Fit, Insertion, and the AirPods Myth](#7-hearing-ppe-proper-fit-insertion-and-the-airpods-myth)
+   - [The 4-Step Earplug Insertion Routine](#the-4-step-earplug-insertion-routine)
+   - [The Cupped-Hands Fit Check](#the-cupped-hands-fit-check)
+   - [Why AirPods and Consumer Headphones Are Strictly Banned](#why-airpods-and-consumer-headphones-are-strictly-banned)
+8. [Answers to the 3-Question Quiz](#8-answers-to-the-3-question-quiz)
+9. [Key Vocabulary Checklist (O-Level Science Links)](#9-key-vocabulary-checklist)
 
-2. [Module Overview & Objectives](#-module-overview--objectives)
+---
 
-3. [The Impact of Noise Hazards](#-the-impact-of-noise-hazards)
+## 1. Quick 3-Question Quiz
 
-4. [High-Noise Areas in Data Centers](#-high-noise-areas-in-data-centers)
+Try answering these three questions before reading the guide!
 
-5. [Noise Hazard Prevention & Sound Physics](#-noise-hazard-prevention--sound-physics)
+### Question 1
+Sound volume is measured on a logarithmic decibel ($\text{dB}$) scale. Compared to a quiet whisper at $10\text{ dB}$, how many times more intense is a machine roaring at $100\text{ dB}$?
 
-6. [Personal Protective Equipment (PPE) Guidelines](#-personal-protective-equipment-ppe-guidelines)
+- [ ] A) 10 times more intense
+- [ ] B) 100 times more intense
+- [ ] C) 1,000,000,000 times (1 billion times) more intense
 
-7. [Pre-Test Answer Key & Explanations](#-pre-test-answer-key--explanations)
+### Question 2
+When loud industrial noise causes permanent hearing loss, what part of the ear has actually been destroyed?
 
-## 📝 Pre-Test Assessment
+- [ ] A) The skin on the outer ear flap (pinna)
+- [ ] B) Microscopic sensory hair cells in the fluid-filled inner ear (cochlea)
+- [ ] C) The skull bone behind the ear
 
-Test your baseline knowledge before reviewing the module materials.
+### Question 3
+Can a data center engineer wear consumer noise-cancelling earbuds (like Apple AirPods Pro or Sony ANC headphones) as official hearing protection inside a loud server hall?
 
-### Questions
+- [ ] A) Yes, as long as Active Noise Cancellation (ANC) is switched on
+- [ ] B) Yes, if they play soft classical music to cancel out the fan noise
+- [ ] C) No, consumer earbuds lack certified industrial noise reduction ratings and are strictly prohibited
 
-#### 1. At what sound threshold do noise levels generally become hazardous to human hearing in workplace environments?
+*(Check your answers in [Section 8](#8-answers-to-the-3-question-quiz)!)*
 
-* \[ \] A) $50\text{--}55\text{ dB}$
+---
 
-* \[ \] B) $65\text{--}70\text{ dB}$
+## 2. Why Are Data Centers So Noisy?
 
-* \[ \] C) $80\text{--}85\text{ dB}$
+When people picture a high-tech data center, they often imagine a silent, glowing room straight out of a sci-fi movie.
 
-* \[ \] D) $100\text{--}110\text{ dB}$
+**The reality is deafening.**
 
-#### 2. What anatomical structure inside the ear is permanently damaged by sustained exposure to excessive noise?
-
-* \[ \] A) The eardrum membrane
-
-* \[ \] B) Microscopic hair cells in the inner ear
-
-* \[ \] C) The middle ear amplification bones
-
-* \[ \] D) The outer auditory canal lining
-
-#### 3. Why are chiller plant areas particularly prone to elevated noise levels in a data center?
-
-* \[ \] A) Compressors and fans emit high-frequency noise, which concrete/cinder foundations reflect and amplify.
-
-* \[ \] B) Servers inside chiller rooms operate at maximum processing capacity.
-
-* \[ \] C) Air ducts in chiller rooms create high-pressure vacuum whistles.
-
-* \[ \] D) Chiller rooms lack basic electrical grounding.
-
-#### 4. Which of the following is considered an acceptable form of hearing protection in an active high-noise data center area?
-
-* \[ \] A) Consumer active noise-canceling (ANC) earbuds (e.g., AirPods Pro)
-
-* \[ \] B) Over-ear consumer studio headphones
-
-* \[ \] C) Certified occupational communication two-way radio headsets
-
-* \[ \] D) Standard foam audio monitors
-
-#### 5. When checking the fit of roll-down foam earplugs by cupping your hands over your ears and counting to 10:
-
-* \[ \] A) Your voice should sound significantly louder when hands are cupped.
-
-* \[ \] B) Your voice volume should remain essentially the same whether hands are cupped or removed.
-
-* \[ \] C) You should hear a distinct whistling or popping sound.
-
-* \[ \] D) Your voice should sound muffled only when your hands are removed.
-
-## 🎯 Module Overview & Objectives
-
-Noise is an often-underestimated hazard in high-density critical facilities. Unchecked, sustained noise impairs operational communication, diminishes situational awareness, and causes irreversible occupational hearing loss.
-
-### Learning Objectives
-
-* **Recognize** physiological and systemic risks linked to chronic noise exposure.
-
-* **Understand** statutory and environmental hearing protection thresholds.
-
-* **Identify** primary high-noise zones within enterprise data centers.
-
-* **Select, inspect, and fit** appropriate occupational hearing protection devices.
-
-## 🔊 The Impact of Noise Hazards
-
-### What Constitutes a Noise Hazard?
-
-Sound becomes a workplace safety hazard when it:
-
-1. Threatens auditory health ($>80\text{--}85\text{ dB}$).
-
-2. Masks critical warning tones, alarms, or spoken directives.
-
-3. Diminishes cognitive focus and situational awareness.
-
-### Mechanism of Hearing Loss
+A massive data center houses tens of thousands of servers stacked into rows of metal racks. Every single server has high-RPM fans pulling air across boiling-hot microchips and graphics cards (GPUs). Multiply that by thousands of servers, giant water chillers, and industrial air conditioning units, and the baseline sound easily surpasses **80 to 85 decibels ($\text{dB}$)**.
 
 ```
-Sound Waves ➔ Outer Ear / Ear Drum ➔ Middle Ear Amplification ➔ Inner Ear Hair Cells ➔ Nerve Impulses to Brain
-
+Thousands of AI Servers running at full speed
+       │
+       ▼
+Tens of thousands of cooling fans spinning at 15,000+ RPM
+       │
+       ▼
+Continuous roaring hum comparable to standing next to a busy expressway!
 ```
 
-1. **Transmission:** Sound waves create vibrations across the eardrum, transferred via the middle ear bones.
+<img width="1200" height="584" alt="image" src="https://github.com/user-attachments/assets/edab1e42-9b01-4144-b188-d719114b7727" />
 
-2. **Transduction:** Microscopic hair cells (stereocilia) in the cochlea bend in response to vibration, converting mechanical energy into neurological signals.
+---
 
-3. **Permanent Degradation:** Excessive acoustic energy damages or destroys these stereocilia. Once destroyed, they **do not regenerate**.
+## 3. The Biology of Hearing: How Loud Sounds Break Your Ears
 
-### Systemic Health Consequences
+### How We Hear Sound Waves
 
-Beyond localized auditory damage, prolonged occupational noise exposure is clinically linked to:
+In lower secondary science and O-Level biology, we learn how vibrations travel through the ear:
 
-* Persistent tinnitus
 
-* Cardiovascular stress and elevated blood pressure
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/c23ba189-3e7a-4abe-8857-9deec4e94a40" />
 
-* Heightened anxiety, irritability, and chronic fatigue
 
-* Social isolation and depression
-
-## 🏭 High-Noise Areas in Data Centers
-
-| **Facility Zone** | **Primary Noise Generators** | **Operational Considerations** | 
-
-| **Backup Generators** | Internal combustion engines, turbos, exhaust air flows | High risk of sudden, automated starts during utility transfers or grid events. Hearing PPE must be ready at all times; mandatory during monthly load-bank testing and active service. | 
-
-| **Modular Electrical Rooms (MERs)** | Large transformers, switchgear hum, uninterruptible power supply (UPS) blowers | Continuous harmonic hum and forced-air cooling. Obey signage and don required PPE prior to passing entry thresholds. | 
-
-| **Data Halls & Containment Aisles** | Server fan trays, power supplies, high-CFM CRAH/CRAC units | Sound levels fluctuate with computational workloads. High-density compute (such as AI/ML accelerator clusters) drives elevated fan duty cycles. Protection is critical inside Hot/Cold Aisle Containment (HAC/CAC). | 
-
-| **Chiller Plants** | Screw/centrifugal compressors, condenser water pumps, evaporator fans | High-pitched mechanical whine and low-frequency motor rumble. Hard reflective surfaces (concrete slabs and cinder block walls) amplify acoustic reflections rather than attenuating them. | 
-
-## 🛡️ Noise Hazard Prevention & Sound Physics
-
-### Physics of Sound: The Decibel Scale
-
-The decibel ($\text{dB}$) scale is **logarithmic**, not linear:
-
-* An increase of $10\text{ dB}$ represents a $10\times$ **increase** in sound intensity.
-
-* Sound energy increases rapidly:
-
-  * $20\text{ dB}$ is $10\times$ more intense than $10\text{ dB}$.
-
-  * $100\text{ dB}$ is $10^9$ ($1\text{ billion}$) times more intense than $10\text{ dB}$.
-
-$$
-\Delta L = 10 \log_{10}\left(\frac{I_1}{I_0}\right)
-$$
-
-### Hierarchy of Controls for Noise Reduction
+1. **Outer Ear:** Sound waves hit your ear flap and travel down the ear canal to vibrate your **eardrum (tympanic membrane)**.
+2. **Middle Ear:** Three tiny bones (the ossicles: hammer, anvil, and stirrup) mechanically amplify those vibrations.
+3. **Inner Ear (Cochlea):** A snail-shaped chamber filled with fluid and lined with thousands of **microscopic sensory hair cells (stereocilia)**.
+4. **Brain Signal:** As the fluid ripples, the hair cells bend, converting mechanical movement into electrical nerve impulses sent through the auditory nerve to your brain.
 
 ```
-  [1. Engineering Controls]  --> Enclosures, silencers, acoustic wall treatments, isolation mounts
-            |
-            v
-  [2. Administrative Controls] --> Exposure rotation, signage, designated quiet corridors
-            |
-            v
-  [3. Personal Protection (PPE)] --> Earplugs, earmuffs, dual protection (when controls are insufficient)
-
+Sound Waves ──► Ear Drum ──► Middle Ear Bones ──► Inner Ear Hair Cells ──► Nerve Impulses to Brain
 ```
 
-1. **Engineering Controls:**
+### Permanent Damage: Why Hair Cells Never Grow Back
 
-   * Enclosing or shielding vibrating motors.
+Think of the microscopic hair cells in your cochlea like a patch of green grass in a field:
 
-   * Installing silencers, acoustic duct baffles, and tuned mufflers.
+- **Gentle foot traffic (normal sound):** The blades of grass bend, but spring back upright when you walk away.
+- **A heavy steamroller (excessive noise $>85\text{ dB}$):** The blades are crushed, sheared off, and flattened into the dirt.
 
-   * Treating equipment pads with anti-vibration dampers; treating walls/ceilings with acoustic absorption panels.
+Human inner-ear hair cells **cannot regenerate or heal**. Once intense sound vibrations snap them, your brain permanently receives fewer impulses. 
 
-2. **Administrative Controls:**
+Hearing aids can make sounds louder, but they cannot replace destroyed hair cells. Furthermore, chronic noise exposure can trigger persistent ringing in the ears (**tinnitus**), chronic headaches, elevated blood pressure, and anxiety.
 
-   * Maximizing physical standoff distances between technicians and operational plant equipment.
+---
 
-   * Scheduling noisy preventive maintenance off-shift.
+## 4. The Physics of Sound: Understanding the Decibel (dB) Scale
 
-   * Enforcing strict time-weighted exposure limits inside active containment pods.
+### The Logarithmic Trap
 
-3. **Personal Protective Equipment (PPE):**
+In physics, sound energy is not linear. You cannot add decibels like normal numbers:
 
-   * Mandatory when engineering and administrative measures cannot reduce ambient sound beneath $80\text{--}85\text{ dB}$.
+$$\Delta L = 10 \cdot \log_{10}\left(\frac{I_1}{I_0}\right)$$
 
-## 🎧 Personal Protective Equipment (PPE) Guidelines
+Every **$+10\text{ dB}$ jump** represents a **$10\times$ multiplier** in physical sound energy!
 
-### Field Rule of Thumb
+- $20\text{ dB}$ is **$10\times$ more intense** than $10\text{ dB}$.
+- $30\text{ dB}$ is **$100\times$ more intense** than $10\text{ dB}$ ($10 \times 10$).
+- $100\text{ dB}$ is **$1,000,000,000\times$ (1 billion times)** more intense than $10\text{ dB}$ ($10^9$)!
 
-> **The Conversation Check:** If you must raise your voice to speak with a colleague who is standing at arm's length (approx. $1\text{ meter}$ / $3\text{ feet}$ away), ambient noise is at or above dangerous levels ($>85\text{ dB}$), and hearing protection is required.
+### The Danger Threshold: 80–85 dB
 
-### Choosing & Inspecting Hearing PPE
+In Singapore workplace safety standards (MOM) and global guidelines, the danger threshold begins at **80–85 dB**.
 
-* **Attenuation Rating:** Verify that the device's Noise Reduction Rating (NRR) or Single Number Rating (SNR) brings net eardrum exposure within safe thresholds ($<80\text{ dB}$).
+| Everyday Sound Example | Sound Level ($\text{dB}$) | Safety Status |
+| :--- | :--- | :--- |
+| Quiet library / whisper | $30\text{ dB}$ | Completely safe |
+| Normal conversational voice | $60\text{ dB}$ | Completely safe |
+| Busy hawker centre at lunchtime | $70\text{--}75\text{ dB}$ | Safe for normal durations |
+| **Data hall server aisles / lawnmower** | **$80\text{--}85\text{ dB}$** | **DANGER ZONE: Protection required for long exposure!** |
+| Heavy diesel generator running | $100\text{--}110\text{ dB}$ | Severe risk: eardrum damage without PPE in minutes |
+| Jet engine taking off at Changi Airport | $130\text{--}140\text{ dB}$ | Instant physical pain and acoustic trauma |
 
-* **Form Factor & Comfort:** Overly tight muffs or improper plug sizes cause pressure points, leading to non-compliance. Utilize employer fit-testing programs where available.
+> **The "Arm's Length" Rule of Thumb:**  
+> If you are standing an arm's length away from a classmate or colleague (about 1 meter) and you have to **shout** for them to understand your voice, the ambient noise is almost certainly **at or above 85 dB**, meaning hearing protection is mandatory!
 
-### Proper Insertion Technique for Roll-Down Foam Plugs
+---
 
-1. **Roll:** Roll the plug between thumb and forefinger into a narrow, crease-free cylinder.
+## 5. The Loudest Hotspots in a Data Center
 
-2. **Reach & Pull:** Reach over your head with the opposite hand, pulling the outer pinna **upward and outward** to straighten the ear canal.
+Engineers mark noisy facilities with clear warning signs. Before opening the door to these areas, certified hearing protection must be inserted or worn:
 
-3. **Insert & Hold:** Slide the compressed plug well into the ear canal. Hold it gently with your fingertip for 20–30 seconds while it expands to fill the canal.
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                   PRIMARY HIGH-NOISE ZONES                             │
+├──────────────────────────┬─────────────────────────────────────────────┤
+│ 1. Backup Diesel         │ Massive engines that can start automatically│
+│    Generators            │ during a power trip. Roars at >100 dB.      │
+├──────────────────────────┼─────────────────────────────────────────────┤
+│ 2. Modular Electrical    │ Switchgear, transformers, and UPS cooling   │
+│    Rooms (MERs)          │ fans emitting intense harmonic hums.        │
+├──────────────────────────┼─────────────────────────────────────────────┤
+│ 3. Data Halls            │ Thousands of server fans. Aisles get louder │
+│    (White Space)         │ as AI workloads demand maximum fan speeds.  │
+├──────────────────────────┼─────────────────────────────────────────────┤
+│ 4. Chiller Plants &      │ Giant compressors on concrete slabs that    │
+│    Cooling Yards         │ reflect sound instead of absorbing it.      │
+└──────────────────────────┴─────────────────────────────────────────────┘
+```
 
-4. **Visual Verification:** Looking straight into a mirror (or checked by a teammate), the base of the earplug should not project significantly past the outer ear profile.
+---
 
-### Fit Verification: The Acoustic Seal Test
+## 6. Hierarchy of Noise Defense: How Engineers Solve It
 
-1. Cup both hands tightly over your ears while counting aloud from 1 to 10.
+In safety engineering, handing out earplugs is actually the **last resort**. Engineers always try to eliminate or control noise at the source first:
 
-2. Remove your hands while continuing to speak.
+```
+[ 1. ENGINEERING CONTROLS ] (Best)
+- Mount noisy machines inside acoustic soundproof enclosures
+- Add mufflers and baffles to exhaust ducts
+- Install vibration dampening pads under heavy chillers
+           │
+           ▼
+[ 2. ADMINISTRATIVE CONTROLS ] (Policies)
+- Restrict working hours / shift durations inside noisy server pods
+- Keep non-essential workers outside hazardous plant yards
+           │
+           ▼
+[ 3. PERSONAL PROTECTIVE EQUIPMENT (PPE) ] (Final line of defense)
+- Certified industrial foam earplugs or earmuffs
+```
 
-3. **Assessment:**
+---
 
-   * If your voice sounds noticeably **quieter** with your hands over your ears, the earplugs are **not** sealing correctly.
+## 7. Hearing PPE: Proper Fit, Insertion, and the AirPods Myth
 
-   * If your voice sounds **the same volume** whether cupped or open, an adequate seal has been achieved.
+### The 4-Step Earplug Insertion Routine
 
-### Approved vs. Prohibited Devices
+Putting in foam earplugs correctly is a practical science skill:
 
-* ✅ **Approved:** Rated industrial foam plugs, pre-molded silicone plugs, certified industrial earmuffs, and occupational radio communication headsets rated for specific high-noise zones.
+```
+Step 1: Roll Down          Step 2: Pull Ear           Step 3: Insert & Hold
+     _____                     ___                         _______
+    (_____)  ===>             /   \  ===>                 |  EAR  |
+ Roll between fingers        Reach over head;            Slide inside and hold 
+ into a narrow cylinder      pull pinna up and back      20-30s while it expands
+```
 
-* ❌ **Prohibited:** Commercial ANC headphones, gaming headsets, and personal music earbuds (e.g., Apple AirPods, Galaxy Buds). These are **not certified** for workplace hearing protection and provide inadequate attenuation against dynamic industrial frequency spectrums.
+1. **Roll:** Roll the foam earplug between your thumb and fingertips until it is a thin, wrinkle-free cylinder.
+2. **Pull:** Reach with your opposite hand over your head and pull your outer ear (pinna) **upward and backward**. This straightens out your naturally curved ear canal.
+3. **Insert & Hold:** Slide the compressed plug gently inside. Hold your fingertip against the base for **20 to 30 seconds** while the foam expands to create an airtight seal.
+4. **Mirror Check:** When someone looks at you directly from the front, the earplugs should not be sticking far out of your ears.
 
-## 💡 Pre-Test Answer Key & Explanations
+### The Cupped-Hands Fit Check
 
-| **Question** | **Correct Answer** | **Technical Explanation** | 
+How do you know if your earplugs actually sealed your ear canal?
 
-| **1** | **C** | Most standard occupational safety jurisdictions (including OSHA and regional HSE bodies) establish action limits and protection thresholds between $80\text{ dB}$ **and** $85\text{ dB}$ time-weighted average. | 
+1. Count loudly out loud from 1 to 10.
+2. Cup your hands tightly over both ears while speaking.
+3. **If your voice sounds much quieter with hands cupped:** The earplugs are **loose or fitted poorly**. Air is still leaking through.
+4. **If your voice volume sounds exactly the same:** You have achieved a **tight, correct seal**!
 
-| **2** | **B** | High acoustic energy damages the delicate stereocilia (hair cells) within the cochlea of the inner ear. Because these cells do not regenerate, the resulting sensorineural hearing loss is irreversible. | 
+### Why AirPods and Consumer Headphones Are Strictly Banned
 
-| **3** | **A** | Chiller plants combine continuous high-output compressor whining with large fan air movement. Mounting these massive systems directly on dense concrete/cinder foundations reflects acoustic waves rather than attenuating them. | 
+Many students ask: *"Why can't engineers just wear their Apple AirPods Pro or Bose noise-cancelling headphones?"*
 
-| **4** | **C** | Only certified occupational hearing protection systems (such as industrial two-way communication headsets with rated NRR/SNR ratings) are permissible. Commercial ANC devices are not certified safety equipment. | 
+- ❌ **No Certified Industrial Rating:** Consumer electronics are not tested to industrial **Noise Reduction Rating (NRR)** standards.
+- ❌ **False Sense of Safety:** Active Noise Cancellation (ANC) uses inverse sound waves to trick your brain, but loud high-frequency bursts can overwhelm the tiny digital speaker.
+- ❌ **The Volume Trap:** In noisy areas, people often turn their music volume up even louder to drown out the background hum, creating a *second* noise hazard right against their eardrums!
 
-| **5** | **B** | When earplugs form an airtight acoustic barrier inside the ear canal, placing cupped hands over the outer ear should introduce no further attenuation; your voice volume should remain unchanged. | 
+Only **rated occupational foam earplugs, industrial earmuffs, or certified communication radio headsets** are permitted in data centers.
+
+---
+
+## 8. Answers to the 3-Question Quiz
+
+### Question 1: Answer is C ($1,000,000,000$ times / 1 billion times)
+- *Why (O-Level Physics):* The decibel scale is logarithmic. Every increase of $10\text{ dB}$ is a $10\times$ increase in acoustic power. The jump from $10\text{ dB}$ to $100\text{ dB}$ is an increase of $90\text{ dB}$, which equals $10^9 = 1,000,000,000$ times more sound intensity!
+
+### Question 2: Answer is B (Microscopic hair cells in the cochlea)
+- *Why (O-Level Biology):* Intense sound energy over-stretches and permanently snaps the delicate stereocilia (hair cells) within the cochlea of your inner ear. Unlike skin or bone cells, these sensory hair cells cannot divide or repair themselves.
+
+### Question 3: Answer is C (No, consumer earbuds are strictly prohibited)
+- *Why:* Consumer earbuds do not form certified industrial seals and can encourage workers to play music dangerously loud. Only equipment with verified Noise Reduction Ratings (NRR) is legally permitted on the data center floor.
+
+---
+
+## 9. Key Vocabulary Checklist (O-Level Science Links)
+
+- **Decibel / dB (分貝):** A logarithmic unit used to measure the intensity or sound pressure level of acoustic waves.
+- **Logarithmic Scale (對數尺度):** A non-linear scale where each fixed step increases by a factor of multiplication (powers of 10) rather than simple addition.
+- **Cochlea (耳蝸):** The coiled, fluid-filled spiral structure of the inner ear containing the sensory receptors for hearing.
+- **Stereocilia (毛細胞纖毛):** Microscopic, hair-like projections atop inner ear sensory cells that convert physical fluid vibrations into neurological electrical impulses.
+- **Tinnitus (耳鳴):** A persistent phantom ringing, buzzing, or hissing sound in the ears caused by damaged auditory hair cells or nerve pathways.
+- **Noise Reduction Rating / NRR (降噪評級):** An official standardized metric indicating the number of decibels a certified safety device attenuates in high-noise environments.
