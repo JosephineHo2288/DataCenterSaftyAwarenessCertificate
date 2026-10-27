@@ -32,25 +32,37 @@ Test your knowledge of mechanical safety and material handling before proceeding
 ###### Question 1
 
 When installing heavy hardware into a server rack or moving a populated cabinet across the data hall floor, which procedure is **mandatory** to prevent tip-over accidents?
+
 [-] A) Place the heaviest equipment at the top of the rack to allow easier cable drops into overhead trays.
+
 [-] B) Install heavier equipment at the bottom of the rack to keep the center of gravity as low as possible.
+
 [-] C) Use a standard screwdriver to lever floor tiles out of the way when navigating concrete expansion joints.
+
 [-] D) Stage uninstalled servers temporarily in wide hallways to keep aisle floors open during transit.
 
 ###### Question 2
 
 When navigating loaded equipment across a data center facility, why are concrete expansion joints and threshold transitions considered high-hazard zones?
+
 [-] A) Concrete expansion joints create electro-magnetic pulses that disrupt solid-state drives.
+
 [-] B) Small caster wheels can abruptly catch on joint depressions, converting horizontal kinetic energy into a rotational tip-over moment that can flip a 400-pound cabinet.
+
 [-] C) Expansion joints are strictly designed to vent clean agent gases.
+
 [-] D) Casters rolling across expansion joints cause localized structural collapse of all sub-floor concrete slabs.
 
 ###### Question 3
 
 Which of the following describes a mandatory protocol for loading dock offloading and staging?
+
 [-] A) Hallways exceeding 3 meters in width may be used for temporary overflow server staging.
+
 [-] B) Wheel chocks must be positioned firmly against trailer wheels before offloading begins to prevent trailer creep.
+
 [-] C) Standard flat-blade screwdrivers should be used to test dock leveler spring balances.
+
 [-] D) Forklifts may be driven over all standard raised data hall floors as long as load distribution plates are omitted.
 
 *(Check your answers in Section 1.8!)*
