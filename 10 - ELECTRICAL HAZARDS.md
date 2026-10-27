@@ -77,7 +77,7 @@ When electrical equipment is rated at **1,200 A or higher**, what specific room 
 
 ### 1.2 Why High-Voltage Data Center Systems Are Extreme
 
-Data center power distribution networks step down utility voltages that can arrive at up to **35,000V**. 
+Data center power distribution networks step down utility voltages that can arrive at up to **35,000V** = **35kV**. 
 
 High-density IT racks, AI server clusters, and central chiller plants draw thousands of amperes around the clock. Working on or near energized gear—such as Medium-Voltage Switchgear, Transformers, Uninterruptible Power Supply (UPS) units, Power Distribution Units (PDUs), Busways, and Remote Power Panels (RPPs)—exposes personnel to lethal shock hazards and violent electrical explosions.
 
