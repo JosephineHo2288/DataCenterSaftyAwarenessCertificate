@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Master Table of Contents
+## 📋 Table of Contents
 
 - [Module 1: Electrical Safety, Arc Flash Protection & Working Boundaries (NFPA 70E & NEC)](#module-1-electrical-safety-arc-flash-protection--working-boundaries)
   - [1.1 Quick Quiz: Electrical Safety](#11-quick-quiz-electrical-safety)
