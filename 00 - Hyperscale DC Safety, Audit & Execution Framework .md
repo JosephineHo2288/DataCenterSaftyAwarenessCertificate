@@ -20,20 +20,35 @@ This repository houses an end-to-end operational governance framework designed f
 
 ## Program Governance Lifecycle
 
-```mermaid
-flowchart LR
-    A[Design & BIM Coordination] --> B[Pre-Construction EHS Review]
-    B --> C[White-Space Fit-Out & Submittals]
-    C --> D[Commissioning Gates L1-L5]
-    D --> E[Regulatory & Insurance Audits]
-    E --> F[Day-2 Operational Handover]
+flowchart TD
 
-    subgraph "Technical Insertion & Change Governance"
-        G[RFI / Submittal Review] -.-> C
-        H[Lockout / Tagout LOTO] -.-> D
-        I[Prosci Enablement Framework] -.-> E
+    subgraph Governance_Lifecycle ["DCDE Safety & Audit Governance Lifecycle"]
+    
+        A --> B ["1. Design Review & Clash Detection<br/>(BIM / TIA-942)"]  B ["2. Pre-Con Risk & Submittals<br/>(RFI / EHS Protocols)"]
+        
+        B --> C ["3. White-Space Fit-Out<br/>(Containment / Tray Safety)"]
+
+        C --> D ["4. Commissioning Safety Gates<br/>(L1 to L5 IST & LOTO)"]
+        
+        D --> E ["5. Regulatory & Insurer Audits<br/>(FM Global / SCDF / BCA)"]
+        
+        E --> F ["6. Day-2 Ops Handover<br/>(Continuous Safety Governance)"]
     end
 
+    subgraph Repo_Modules ["Repository Modules and Deliverables"]
+    
+        direction TB
+        
+        M1["01-standards-compliance<br/>(Safety Standards & Audit Checklist)"]
+        
+        M2["02-white-space-construction<br/>(Containment & Tray Hot-Work Safety)"]
+        
+        M3["03-commissioning-safety-gates<br/>(LOTO & Cx L1-L5 Safety Points)"]
+        
+        M4["04-change-management-rollout<br/>(RACI Charter & Contractor Training)"]
+        
+        M5["05-incident-rca-playbook<br/>(5-Whys & Fishbone Incident RCA)"]
+    end
 
 Repository Modules & Deliverables
 
